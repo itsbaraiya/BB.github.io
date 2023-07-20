@@ -7,6 +7,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+*{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --main-color:#8e44ad;
     --black:#222;
