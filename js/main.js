@@ -8,11 +8,10 @@ const multiple= document.querySelector('.hero .bbb .multiple-text');
 const navbar_brand = document.querySelector('.header .navbar-brand');
 const navbar_ul = document.querySelector('.header .nav-list ul');
 const a = document.getElementById('a');
-    
-    const b = document.getElementById('b');
-    const c = document.getElementById('c');
-    const d = document.getElementById('d');
-    const e = document.getElementById('e');
+const b = document.getElementById('b');
+const c = document.getElementById('c');
+const d = document.getElementById('d');
+const e = document.getElementById('e');
 
 
 hamburger.addEventListener('click',()=>{   
@@ -36,7 +35,6 @@ menu_item.forEach((item) => {
         c.style.color='white';
         d.style.color='white';
         e.style.color='white';
-        // hamburger.style.border='white';
         navbar_ul.style.backgroundColor='black';
     }
     else{
@@ -109,22 +107,11 @@ menu_item.forEach((item) => {
             if ($(this).parents('.navbar-nav').length) {
                 $(this).closest('a').addClass('active');
                      
-                $('.navbar-nav ').addClass('invisible'); 
             }   
         }
         
     });
     
-    $(".navbar-nav a").on('click', function (event) {
-        $('.navbar-nav').removeClass('invisible');
-       
-    });
-
-    
-    $(".menu_item").on('click', function (event)
-    {
-
-    });
 
     
     
