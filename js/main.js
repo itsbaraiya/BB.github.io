@@ -129,6 +129,7 @@ menu_item.forEach((item) => {
     // Portfolio filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
     });
 
     $('#portfolio-filter li').on('click', function () {
