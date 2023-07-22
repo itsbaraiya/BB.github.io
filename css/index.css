@@ -565,7 +565,9 @@ justify-content: center;
 .service .service-item .service-text p{
 transform: translateY(-50px);
 }
-
+.hero{
+    margin-top: 120px;
+}
 } 
 
 
@@ -641,7 +643,7 @@ transform: translateY(-50px);
         margin-left: -50px;
         background-color: transparent;
     }
-    .hero .hero-content .bbb{
+/*     .hero .hero-content .bbb{
         width: 500px;
         margin-left: 150px;
     }
@@ -659,7 +661,8 @@ transform: translateY(-50px);
     }
     .hero .hero-content .hero-btn {
         margin-left: 100px;
-    }
+    } */
+    
     #header .nav-list ul{
       background-color: black;
     }
@@ -1680,6 +1683,7 @@ height: 35px;
      background-position: right;
      background-repeat: no-repeat;
      margin-bottom: 50px;
+     margin-top:  80px;
 }   
 #header .nav-bar .brand a{
     font-size: 0.8rem;
@@ -1771,6 +1775,8 @@ height: 35px;
          background-position: right;
          background-repeat: no-repeat;
          margin-bottom: 50px;
+        margin-top: 100px;
+         height: 450px;
     }
      
      /* .navbar .container-fluid .navbar-brand{
@@ -1826,6 +1832,7 @@ height: 35px;
             background-repeat: no-repeat;
             margin-bottom: 50px;
             height: 450px;
+            margin-top: 80px;
        } 
        .hero .hero-content .bbb{
         margin-left: 20px;margin-top: 30px;
@@ -1903,6 +1910,7 @@ height: 35px;
         background-repeat: no-repeat;
         margin-bottom: 50px;
         height: 550px;
+        margin-top: 90px;
    } 
    .hero .hero-content .bbb{
     margin-left: 100px;margin-top: 20px;
