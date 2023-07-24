@@ -146,7 +146,7 @@ menu_item.forEach((item) => {
 
 var typed = new Typed('.multiple-text',
 {
-    strings:['A Frontend Developer!!','Ui/Ux Designer'],
+    strings:['Frontend Developer!!','Ui/Ux Designer!!'],
 typeSpeed :100,
 backSpeed :100,
 backDelay :100,
